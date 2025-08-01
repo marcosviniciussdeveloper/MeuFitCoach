@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MeuFitCoach.Api",
+    "\\MeuFitCoach.Api\\MeuFitCoach.Application",
+    "\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface",
+    "\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence",
+    "\\MeuFitCoach.Domain",
+    "\\MeuFitCoach.Domain\\obj",
+    "\\MeuFitCoach.Domain\\Treino",
+    "\\MeuFitCoach.Domain\\Usuario",
+    "\\MeuFitCoach.Infrastructure"
+  ],
+  "SelectedNode": "\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IExercicioRepository.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MeuFitCoach.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d32e61f49fd0375de625a858445ec3d981a647a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("MeuFitCoach.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MeuFitCoach.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

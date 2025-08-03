@@ -8,5 +8,12 @@ namespace MeuFitCoach.Application.Interface.Persistence
 {
     public  interface IUsuarioRepository
     {
+        Task  AddUsuarioAsync(Usuario NovoUsuario);
+        Task<Usuario> GetByIdUsuarioAsync(Guid UsuarioId);
+        Task<Usuario> GetByEmailUsuarioAsync(string email);
+        Task<List<Usuario>> ListarUsuariosAsync();
+        Task  AtualizarUsuarioAsync(Usuario usuario);
+        Task<Usuario> GeyByIdNumeroWhatsappAsync (string numeroWhatsapp);
+
     }
 }

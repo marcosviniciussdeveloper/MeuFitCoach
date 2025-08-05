@@ -4,13 +4,14 @@
     "\\MeuFitCoach.Api",
     "\\MeuFitCoach.Api\\MeuFitCoach.Application",
     "\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface",
-    "\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence",
-    "\\MeuFitCoach.Domain",
-    "\\MeuFitCoach.Domain\\obj",
-    "\\MeuFitCoach.Domain\\Treino",
-    "\\MeuFitCoach.Domain\\Usuario",
-    "\\MeuFitCoach.Infrastructure"
+    "\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Infrastructure",
+    "\\MeuFitCoach.Api\\MeuFitCoach.Application\\Services",
+    "\\MeuFitCoach.Api\\MeuFitCoach.Application\\Services\\PlanoDeTreino",
+    "\\MeuFitCoach.Api\\MeuFitCoach.Application\\Services\\PlanoDeTreino\\Commands",
+    "\\MeuFitCoach.Infrastructure",
+    "\\MeuFitCoach.Infrastructure\\Persistence",
+    "\\MeuFitCoach.Infrastructure\\Persistence\\Repositories"
   ],
-  "SelectedNode": "\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IExercicioRepository.cs",
+  "SelectedNode": "\\MeuFitCoach.Infrastructure\\Persistence\\ExercicioRepository.cs",
   "PreviewInSolutionExplorer": false
 }

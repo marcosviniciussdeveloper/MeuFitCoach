@@ -7,7 +7,22 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+var connectionString = builder.Configuration.GetConnectionString("MeuFitCoachConnection");
+builder .Services.AddDbContext<MeuFitCoach.Infrastructure.Persistence.Context.AppDbContext>(options =>
+    options.UseNpgsql(connectionString));
+
+
 var app = builder.Build();
+
+
+
+
+//Injeção de Dependências
+builder.Services.AddScoped<GerarPlanoDeTreinoCommand, GerarPlanoDeTreinoCommand>();
+
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

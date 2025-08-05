@@ -13,7 +13,7 @@ namespace MeuFitCoach.Domain.SessaoDeTreino
         public Guid PlanoDeTreinoId { get; set; }
         public string Descricao { get; set; }
         public int Ordem { get; set; }
-        public string Nome { get; set; }
+        public string NomeSessaoTreino { get; set; }
 
 
 
@@ -23,10 +23,10 @@ namespace MeuFitCoach.Domain.SessaoDeTreino
 
 
 
-        public SessaoDeTreino(Guid planodetreinoid, string descricao, int ordem, string nome )
+        public SessaoDeTreino(Guid planodetreinoid, string descricao, int ordem, string nomesessaotreino )
         {
 
-            if (nome == null)
+            if (nomesessaotreino == null)
             {
                 throw new ArgumentException("O nome está invalidao tente novamente  ");
 
@@ -50,10 +50,10 @@ namespace MeuFitCoach.Domain.SessaoDeTreino
             }
 
             Id = Guid.NewGuid();
-            planodetreinoid = PlanoDeTreinoId;
+            PlanoDeTreinoId = planodetreinoid;
             Descricao = descricao;
             Ordem = ordem;
-            Nome = nome;
+            NomeSessaoTreino = nomesessaotreino;
             ListaDeExercicios = new List<ExercicioDaSessao>();
             
 

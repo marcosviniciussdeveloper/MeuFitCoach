@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using MeuFitCoach.Domain.Usuarios;
 
-namespace MeuFitCoach.Domain.PlanoDeTreino
+namespace MeuFitCoach.Domain.Treino
 {
     public class PlanoDeTreino
     {
@@ -13,14 +10,16 @@ namespace MeuFitCoach.Domain.PlanoDeTreino
         public string NomeTreino { get; set; }
         public string Descricao { get; set; }
         public string ObjetivoDoTreino { get; set; }
-  
         public DateTime DataDeInicio { get; set; }
         public DateTime DataDeTermino { get; set; }
         public bool PlanoAtivo { get; set; }
         public int FrequenciaSemanal { get; set; }
+        public virtual Usuario Usuario { get; set; }
+        public virtual ICollection<SessaoDeTreino> SessoesDeTreino { get; set; }
 
-
-
+        public PlanoDeTreino()
+        {       
+        }
 
         public PlanoDeTreino(Guid usuarioid, string nometreino, string descricao, string objetivodotreino, DateTime datadeinicio, DateTime datadetermino, bool planoativo)
         {

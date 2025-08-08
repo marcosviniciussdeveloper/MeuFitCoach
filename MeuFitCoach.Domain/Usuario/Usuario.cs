@@ -1,6 +1,7 @@
-﻿using System.Runtime.CompilerServices;
+﻿
+using MeuFitCoach.Domain.Treino;
 
-namespace MeuFitCoach.Domain.Usuario
+namespace MeuFitCoach.Domain.Usuarios
 {
     public class Usuario
     {
@@ -18,8 +19,11 @@ namespace MeuFitCoach.Domain.Usuario
 
         public string Objetivo { get; set; }
         
+        public virtual ICollection<PlanoDeTreino> PlanosDeTreino { get; set; }
 
-
+        public Usuario() 
+        {
+        }
 
 
 

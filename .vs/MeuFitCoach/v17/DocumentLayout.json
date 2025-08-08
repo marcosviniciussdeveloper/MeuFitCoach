@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Api\\MeuFitCoach.Api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Api\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Infrastructure\\MeuFitCoach.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Infrastructure\\MeuFitCoach.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Infrastructure\\Persistence\\ExercicioRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Infrastructure\\Persistence\\ExercicioRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Infrastructure\\IGeradorDePlanoInteligente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Infrastructure\\IGeradorDePlanoInteligente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Infrastructure\\Persistence\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Infrastructure\\Persistence\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -15,43 +39,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Infrastructure\\ExercicioRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Infrastructure\\ExercicioRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IExercicioRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IExercicioRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Treino\\Exercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Domain\\Treino\\Exercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IPlanoDeTreinoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IPlanoDeTreinoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Api.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Api\\MeuFitCoach.Api.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Infrastructure\\MeuFitCoach.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Infrastructure\\MeuFitCoach.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MeuFitCoach.Api\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sindauto\\Desktop\\MeuCombustivel Copia\\GestaoDeCombustivelApp\\WebApplication1\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -151,7 +140,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 376,
+          "DockedWidth": 237,
           "SelectedChildIndex": 6,
           "Children": [
             {
@@ -167,38 +156,36 @@
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\Program.cs",
-              "RelativeDocumentMoniker": "MeuFitCoach.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\Program.cs",
-              "RelativeToolTip": "MeuFitCoach.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T15:14:56.585Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MeuFitCoach.Api.csproj",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Api.csproj",
-              "RelativeDocumentMoniker": "MeuFitCoach.Api\\MeuFitCoach.Api.csproj",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Api.csproj",
-              "RelativeToolTip": "MeuFitCoach.Api\\MeuFitCoach.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-28T17:10:55.018Z",
+              "DocumentIndex": 4,
+              "Title": "ExercicioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Infrastructure\\Persistence\\ExercicioRepository.cs",
+              "RelativeDocumentMoniker": "MeuFitCoach.Infrastructure\\Persistence\\ExercicioRepository.cs",
+              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Infrastructure\\Persistence\\ExercicioRepository.cs",
+              "RelativeToolTip": "MeuFitCoach.Infrastructure\\Persistence\\ExercicioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:23:46.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "IGeradorDePlanoInteligente.cs",
+              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Infrastructure\\IGeradorDePlanoInteligente.cs",
+              "RelativeDocumentMoniker": "MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Infrastructure\\IGeradorDePlanoInteligente.cs",
+              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Infrastructure\\IGeradorDePlanoInteligente.cs",
+              "RelativeToolTip": "MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Infrastructure\\IGeradorDePlanoInteligente.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T15:56:13.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MeuFitCoach.Api.http",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Api.http",
               "RelativeDocumentMoniker": "MeuFitCoach.Api\\MeuFitCoach.Api.http",
@@ -211,7 +198,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MeuFitCoach.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "MeuFitCoach.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T21:31:54.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MeuFitCoach.Api.csproj.user",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Api.csproj.user",
               "RelativeDocumentMoniker": "MeuFitCoach.Api\\MeuFitCoach.Api.csproj.user",
@@ -219,12 +219,35 @@
               "RelativeToolTip": "MeuFitCoach.Api\\MeuFitCoach.Api.csproj.user",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2025-07-28T17:10:56.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T17:10:56.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 7,
+              "Title": "MeuFitCoach.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Api.csproj",
+              "RelativeDocumentMoniker": "MeuFitCoach.Api\\MeuFitCoach.Api.csproj",
+              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Api.csproj",
+              "RelativeToolTip": "MeuFitCoach.Api\\MeuFitCoach.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-28T17:10:55.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\Program.cs",
+              "RelativeDocumentMoniker": "MeuFitCoach.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\Program.cs",
+              "RelativeToolTip": "MeuFitCoach.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T15:14:56.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "MeuFitCoach.Aplication.csproj",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Application\\MeuFitCoach.Aplication.csproj",
               "RelativeDocumentMoniker": "MeuFitCoach.Application\\MeuFitCoach.Aplication.csproj",
@@ -236,7 +259,7 @@
           ]
         },
         {
-          "DockedWidth": 15,
+          "DockedWidth": 154,
           "SelectedChildIndex": 6,
           "Children": [
             {
@@ -265,98 +288,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExercicioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Infrastructure\\ExercicioRepository.cs",
-              "RelativeDocumentMoniker": "MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Infrastructure\\ExercicioRepository.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Infrastructure\\ExercicioRepository.cs",
-              "RelativeToolTip": "MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Infrastructure\\ExercicioRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T15:50:28.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAHMIAAAAAAAAAAAhwI0IAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-08-05T19:43:51.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IExercicioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IExercicioRepository.cs",
-              "RelativeDocumentMoniker": "MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IExercicioRepository.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IExercicioRepository.cs",
-              "RelativeToolTip": "MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IExercicioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T18:36:53.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\AppDbContext.cs",
-              "RelativeToolTip": "MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T15:55:51.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IPlanoDeTreinoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IPlanoDeTreinoRepository.cs",
-              "RelativeDocumentMoniker": "MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IPlanoDeTreinoRepository.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IPlanoDeTreinoRepository.cs",
-              "RelativeToolTip": "MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IPlanoDeTreinoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T18:32:30.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Exercicio.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Treino\\Exercicio.cs",
-              "RelativeDocumentMoniker": "MeuFitCoach.Domain\\Treino\\Exercicio.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Treino\\Exercicio.cs",
-              "RelativeToolTip": "MeuFitCoach.Domain\\Treino\\Exercicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T16:03:21.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\appsettings.json",
               "RelativeDocumentMoniker": "MeuFitCoach.Api\\appsettings.json",
               "ToolTip": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\appsettings.json",
               "RelativeToolTip": "MeuFitCoach.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-29T15:16:02.29Z",
+              "WhenOpened": "2025-08-07T15:25:53.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "MeuFitCoach.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Infrastructure\\MeuFitCoach.Infrastructure.csproj",
               "RelativeDocumentMoniker": "MeuFitCoach.Infrastructure\\MeuFitCoach.Infrastructure.csproj",
@@ -369,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "MeuFitCoach.Api\\appsettings.Development.json",
@@ -382,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuCombustivel Copia\\GestaoDeCombustivelApp\\WebApplication1\\appsettings.Development.json",
               "RelativeDocumentMoniker": "..\\MeuCombustivel Copia\\GestaoDeCombustivelApp\\WebApplication1\\appsettings.Development.json",
@@ -390,12 +335,11 @@
               "RelativeToolTip": "..\\MeuCombustivel Copia\\GestaoDeCombustivelApp\\WebApplication1\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-05T15:42:47.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T15:42:47.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "ExercicioDaSessao.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Treino\\ExercicioDaSessao.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\Treino\\ExercicioDaSessao.cs",
@@ -403,12 +347,11 @@
               "RelativeToolTip": "MeuFitCoach.Domain\\Treino\\ExercicioDaSessao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T17:24:43.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T17:24:43.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "GerarPlanoDeTreinoCommand.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Services\\PlanoDeTreino\\Commands\\GerarPlanoDeTreinoCommand.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Api\\MeuFitCoach.Application\\Services\\PlanoDeTreino\\Commands\\GerarPlanoDeTreinoCommand.cs",
@@ -416,12 +359,11 @@
               "RelativeToolTip": "MeuFitCoach.Api\\MeuFitCoach.Application\\Services\\PlanoDeTreino\\Commands\\GerarPlanoDeTreinoCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T15:49:38.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T15:49:38.273Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 15,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Usuario\\Usuario.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\Usuario\\Usuario.cs",
@@ -429,12 +371,11 @@
               "RelativeToolTip": "MeuFitCoach.Domain\\Usuario\\Usuario.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T15:18:00.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T15:18:00.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 13,
               "Title": "PlanoDeTreino.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Treino\\PlanoDeTreino.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\Treino\\PlanoDeTreino.cs",
@@ -442,12 +383,11 @@
               "RelativeToolTip": "MeuFitCoach.Domain\\Treino\\PlanoDeTreino.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T17:41:16.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T17:41:16.681Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
               "Title": "SessaoDeTreino.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Treino\\SessaoDeTreino.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\Treino\\SessaoDeTreino.cs",
@@ -455,12 +395,11 @@
               "RelativeToolTip": "MeuFitCoach.Domain\\Treino\\SessaoDeTreino.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T16:03:18.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T16:03:18.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 17,
               "Title": "MeuFitCoach.Domain.csproj.nuget.g.props",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\obj\\MeuFitCoach.Domain.csproj.nuget.g.props",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\obj\\MeuFitCoach.Domain.csproj.nuget.g.props",
@@ -472,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 16,
               "Title": "PlanoRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\Repositories\\PlanoRepository.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\Repositories\\PlanoRepository.cs",
@@ -484,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 19,
               "Title": "IUsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IUsuarioRepository.cs",
@@ -496,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 18,
               "Title": "IGeradorDePlanoDeTreino.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IGeradorDePlanoDeTreino.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Api\\MeuFitCoach.Application\\Interface\\Persistence\\IGeradorDePlanoDeTreino.cs",
@@ -507,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 27,
               "Title": "project.nuget.cache",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\obj\\project.nuget.cache",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\obj\\project.nuget.cache",
@@ -519,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 26,
               "Title": "GrupoMuscular.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Enum\\GrupoMuscular.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\Enum\\GrupoMuscular.cs",
@@ -531,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 23,
               "Title": "Refeicao.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Enum\\Refeicao.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\Enum\\Refeicao.cs",
@@ -543,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 25,
               "Title": "Equipamentos.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Enum\\Equipamentos.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\Enum\\Equipamentos.cs",
@@ -555,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 22,
               "Title": "TipoDeTreino.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Enum\\TipoDeTreino.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\Enum\\TipoDeTreino.cs",
@@ -567,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 29,
               "Title": "tasks.vs.json",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\.vs\\tasks.vs.json",
               "RelativeDocumentMoniker": ".vs\\tasks.vs.json",
@@ -579,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 28,
               "Title": "Refeicao.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Dieta\\Refeicao.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\Dieta\\Refeicao.cs",
@@ -590,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 24,
               "Title": "Nivel.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Enum\\Nivel.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\Enum\\Nivel.cs",
@@ -602,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 20,
               "Title": "PlanoAliementar.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Dieta\\PlanoAliementar.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\Dieta\\PlanoAliementar.cs",
@@ -614,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 21,
               "Title": "Alimento.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Dieta\\Alimento.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\Dieta\\Alimento.cs",
@@ -626,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 30,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Infrastructure\\Class1.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Infrastructure\\Class1.cs",
@@ -638,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 32,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\MeuFitCoach\\MeuFitCoach.Domain\\Class1.cs",
               "RelativeDocumentMoniker": "MeuFitCoach.Domain\\Class1.cs",

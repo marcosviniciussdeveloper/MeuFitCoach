@@ -1,8 +1,13 @@
+
+using Microsoft.EntityFrameworkCore;
+using MeuFitCoach.Domain.Treino;
+using MeuFitCoach.Domain.Usuarios;
+
+
 namespace Persistence
 {
-    using Microsoft.EntityFrameworkCore;
-    using MeuFitCoach.Domain.Entities;
-    using MeuFitCoach.Infrastructure.Persistence.Context;
+
+
     public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
@@ -12,49 +17,50 @@ namespace Persistence
         public DbSet<Exercicio> Exercicios { get; set; }
         public DbSet<PlanoDeTreino> PlanoDeTreino { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
-        public DbSet<ExerciciosDaSessao> ExercicioDaSessao { get; set; }
-        public DbSet<SessaoDeTreino> SessaoDeTreino { get; set; }
+        public DbSet<ExercicioDaSessao> ExercicioDaSessao { get; set; }
 
+        public DbSet<SessaoDeTreino> SessaoDeTreino { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.entity<Usuario>(builder =>
+            modelBuilder.Entity<Usuario>(builder =>
             {
-                builder.HasMany(usuario => usuario.PlanoDeTreino)
-                .WithOne(plano => plano.Usuario)
-                .HasForeignKey(plano => plano.UsuarioId)
-                .OnDelete(DeleteBehavior.Cascade);
-
+                builder.HasMany(usuario => usuario.PlanosDeTreino)
+                       .WithOne(plano => plano.Usuario)
+                       .HasForeignKey(plano => plano.UsuarioId)
+                       .OnDelete(DeleteBehavior.Cascade);
             });
 
 
-            modelBuilder.entity<PlanosDeTreino>(builder =>
+            modelBuilder.Entity<PlanoDeTreino>(builder =>
             {
-                builder.HasMany(plano => plano.SessaoDeTreino)
-                .WithOne(sessao => sessao.PlanoDeTreino)
-                .HasForeignKey(st => st.PlanoDeTreinoId)
-                .OnDelete(DeleteBehavior.Cascade);
+                builder.HasMany(plano => plano.SessoesDeTreino)
+                       .WithOne(sessao => sessao.PlanoDeTreino)
+                       .HasForeignKey(st => st.PlanoDeTreinoId)
+                       .OnDelete(DeleteBehavior.Cascade);
             });
 
+            
 
-
-            modelBuilder.entity<SessoesDeTreino>(builder =>
+        modelBuilder.Entity<SessaoDeTreino>(builder =>
             {
-                builder.HasMany(s => s.ListaDeExercicio)
-                .WithOne(eds => eds.SessaoDeTreino)
-                .HasForeignKey(eds => eds.SessaoDeTreinoId)
-                .OnDelete(DeleteBehavior.Cascade);1
+                builder.HasMany(sessao => sessao.ListaDeExercicios)
+                       .WithOne(exercicio => exercicio.SessaoDeTreino)
+                       .HasForeignKey(eds => eds.SessaoDeTreinoId)
+                       .OnDelete(DeleteBehavior.Cascade);
             });
+   
 
 
-            modelBuilder.entity<Exercicio>(builder =>
+
+            modelBuilder.Entity<Exercicio>(builder =>
             {
-                builder.HasMany(e => e.ExercicioDaSessao)
-                .WithOne(eds => eds.Exercicio)
-                .HasForeignKey(eds => eds.ExercicioId)
-                .OnDelete(DeleteBehavior.Restrict);
+                builder.HasMany(exercicio => exercicio.ExercicioDaSessao)
+                       .WithOne(eds => eds.Exercicio)
+                       .HasForeignKey(eds => eds.ExercicioId)
+                       .OnDelete(DeleteBehavior.Restrict);
             });
 
 

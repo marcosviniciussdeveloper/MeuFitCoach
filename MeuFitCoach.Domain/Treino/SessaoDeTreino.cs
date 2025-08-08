@@ -1,41 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MeuFitCoach.Domain;
-
-namespace MeuFitCoach.Domain.SessaoDeTreino
+﻿namespace MeuFitCoach.Domain.Treino
 {
     public class SessaoDeTreino
     {
         public Guid Id { get; set; }
         public Guid PlanoDeTreinoId { get; set; }
-        public string Descricao { get; set; }
         public int Ordem { get; set; }
         public string NomeSessaoTreino { get; set; }
-
-
-
+        public string Descricao { get; set; }
+        public virtual PlanoDeTreino PlanoDeTreino { get; set; }
+    
         public List<ExercicioDaSessao> ListaDeExercicios { get; private set; }
 
-
-
-
-
-        public SessaoDeTreino(Guid planodetreinoid, string descricao, int ordem, string nomesessaotreino )
+        public SessaoDeTreino()
+        {    
+        }
+        public SessaoDeTreino(Guid planodetreinoid, string descricao, int ordem, string nomesessaotreino)
         {
 
             if (nomesessaotreino == null)
             {
                 throw new ArgumentException("O nome está invalidao tente novamente  ");
 
-
             }
 
             if (descricao == null)
             {
-
                 throw new ArgumentException("A descricao está invalida");
             }
 
@@ -55,9 +44,6 @@ namespace MeuFitCoach.Domain.SessaoDeTreino
             Ordem = ordem;
             NomeSessaoTreino = nomesessaotreino;
             ListaDeExercicios = new List<ExercicioDaSessao>();
-            
-
-
 
         }
     }

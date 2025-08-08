@@ -1,12 +1,13 @@
 ﻿using System;
-
-
-public enum GrupoMuscular
-
+namespace MeuFitCoach.Domain.Enums
 {
-    Peito, Costas, Quadricipes, Biceps, Triceps, Ombros, Gluetos, Abdomen, PernaCompleto,
+    public enum GrupoMuscular
+
+    {
+        Peito, Costas, Quadricipes, Biceps, Triceps, Ombros, Gluetos, Abdomen, PernaCompleto,
+
+
+    }
 
 
 }
-
-

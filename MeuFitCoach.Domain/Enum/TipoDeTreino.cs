@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MeuFitCoach.Domain.SessaoDeTreino
+namespace MeuFitCoach.Domain.Enums
 
 { 
 

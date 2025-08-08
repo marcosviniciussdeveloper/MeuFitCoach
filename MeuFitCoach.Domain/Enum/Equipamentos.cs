@@ -1,4 +1,4 @@
-namespace Enum.Equipamento
+namespace MeuFitCoach.Domain.Enums
 {
 	public enum Equipamentos
 	{

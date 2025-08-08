@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MeuFitCoach.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5be7561c49adb4b172884dc38f8ebdd2f0a0d5ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8824961d4e645ecefc61b2065dbf689d747faf45")]
 [assembly: System.Reflection.AssemblyProductAttribute("MeuFitCoach.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MeuFitCoach.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

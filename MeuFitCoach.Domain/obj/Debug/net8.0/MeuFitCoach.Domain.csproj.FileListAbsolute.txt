@@ -1,10 +1,11 @@
+C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Domain\bin\Debug\net8.0\MeuFitCoach.Domain.deps.json
+C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Domain\bin\Debug\net8.0\MeuFitCoach.Domain.dll
+C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Domain\bin\Debug\net8.0\MeuFitCoach.Domain.pdb
 C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Domain\obj\Debug\net8.0\MeuFitCoach.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Domain\obj\Debug\net8.0\MeuFitCoach.Domain.AssemblyInfoInputs.cache
 C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Domain\obj\Debug\net8.0\MeuFitCoach.Domain.AssemblyInfo.cs
 C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Domain\obj\Debug\net8.0\MeuFitCoach.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Domain\bin\Debug\net8.0\MeuFitCoach.Domain.deps.json
-C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Domain\bin\Debug\net8.0\MeuFitCoach.Domain.dll
-C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Domain\bin\Debug\net8.0\MeuFitCoach.Domain.pdb
+C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Domain\obj\Debug\net8.0\MeuFitCoach.Domain.sourcelink.json
 C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Domain\obj\Debug\net8.0\MeuFitCoach.Domain.dll
 C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Domain\obj\Debug\net8.0\refint\MeuFitCoach.Domain.dll
 C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Domain\obj\Debug\net8.0\MeuFitCoach.Domain.pdb

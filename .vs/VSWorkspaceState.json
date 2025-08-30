@@ -5,9 +5,10 @@
     "\\MeuFitCoach.Domain",
     "\\MeuFitCoach.Domain\\Treino",
     "\\MeuFitCoach.Infrastructure",
+    "\\MeuFitCoach.Infrastructure\\Integrations",
     "\\MeuFitCoach.Infrastructure\\Persistence",
     "\\MeuFitCoach.Infrastructure\\Persistence\\Repositories"
   ],
-  "SelectedNode": "\\MeuFitCoach.Api\\MeuFitCoach.Api.csproj",
+  "SelectedNode": "\\MeuFitCoach.Infrastructure\\Integrations\\OpenAiPlanoDeTreinoGenerator.cs",
   "PreviewInSolutionExplorer": false
 }

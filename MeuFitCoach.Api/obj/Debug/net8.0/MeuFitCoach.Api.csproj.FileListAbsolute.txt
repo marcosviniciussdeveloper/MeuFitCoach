@@ -6,8 +6,6 @@ C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Api\bin\Debug\net8.0\MeuFitCoa
 C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Api\bin\Debug\net8.0\MeuFitCoach.Api.runtimeconfig.json
 C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Api\bin\Debug\net8.0\MeuFitCoach.Api.dll
 C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Api\bin\Debug\net8.0\MeuFitCoach.Api.pdb
-C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Api\bin\Debug\net8.0\Azure.AI.OpenAI.dll
-C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Api\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Api\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Api\bin\Debug\net8.0\MediatR.dll
 C:\Users\Sindauto\Desktop\MeuFitCoach\MeuFitCoach.Api\bin\Debug\net8.0\MediatR.Contracts.dll

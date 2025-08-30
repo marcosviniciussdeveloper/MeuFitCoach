@@ -11,7 +11,7 @@ namespace MeuFitCoach.Application.Interface.Infrastructure
 
         Task  SendMessageAsync(string numeroWhatsapp, string mensagem, string NomeUsuario);
 
-        Task  
+       
         
     }
 }

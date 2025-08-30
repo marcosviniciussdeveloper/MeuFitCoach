@@ -1,45 +1,74 @@
-﻿
-
-
-
+﻿using System.ComponentModel.DataAnnotations;
+using System.Linq;
 using MeuFitCoach.Application.Interface.Infrastructure;
 using MeuFitCoach.Domain.Usuarios;
-using Azure.AI.OpenAI;
 using OpenAI;
 using OpenAI.Chat;
 
-namespace MeuFitCoach.Infrastructure.Integrations
+
+
+namespace MeuFitCoach.Infrastructure.Integrations;
+
+public class OpenAiPlanoDeTreinoGenerator : IGeradorDePlanoInteligente
 {
-    public  class OpenAiPlanoDeTreinoGenerator : IGeradorDePlanoInteligente
+    private readonly OpenAIClient _openAiClient;
+
+    
+    public OpenAiPlanoDeTreinoGenerator(OpenAIClient openAiClient)
     {
-       private readonly OpenAIClient _openAiClient;
-        public OpenAiPlanoDeTreinoGenerator(OpenAIClient openAiClient)
+        _openAiClient = openAiClient ?? throw new ArgumentNullException(nameof(openAiClient));
+    }
+
+
+
+    public async Task<string> GerarPlanoAsync(Usuario u, CancellationToken ct = default)
+    {
+        var systemPrompt =
+        @"Você é um personal trainer profissional.
+        Responda APENAS em JSON válido (sem texto fora do JSON).
+        Schema:
         {
-            _openAiClient = openAiClient;
-        }
+             ""diasPorSemana"": number,
+            ""treinos"": [{ ""dia"": ""Segunda-feira"", ""exercicios"": [{ ""nome"": ""..."", ""series"": 4, ""repeticoes"": ""8-12"", ""descansoSegundos"": 90, ""observacoes"": ""..."" }]}]
+        }";
+
+        var idade = (int)((DateTime.UtcNow - u.DataDeNascimento).TotalDays / 365.25);
+        var userPrompt =
+        $@"Nome: {u.Nome}
+        Idade: {idade}
+        Altura: {u.Altura} cm
+        Peso: {u.Peso} kg
+        Objetivo: {u.Objetivo}
+        Gere um plano semanal coerente com o objetivo, com exercícios comuns de academia.";
 
 
 
-        public async Task<string> GerarPlanoAsync (Usuario usuario)
+        var messages = new List<ChatMessage>
         {
-            string prompt = "Crie um plano de treino para {usuario.Nome} Com o objetivo {usuario.ObjetivoDoTreino}...";
+            new SystemChatMessage( systemPrompt),
+            new UserChatMessage( userPrompt)
+        };
 
 
-            var response = await _OpenAiClient.GetChatCompletionAsync("gpt-4", new ChatCompletionOptions
+        var requestyBody = new
+        {
+            model = "gpt-4",
+            messages = new[]
             {
+                new { role = systemPrompt },
+                new { role = userPrompt },
 
 
-                string TextoDaResposta = response.Value.Choices[0].Message.Content;
-                return TextoDaResposta;
+            },
+            max_tokens = 200
+        };
 
 
 
-        }
 
-        }
-
+        return systemPrompt;
 
 
     }
+
 }
-  

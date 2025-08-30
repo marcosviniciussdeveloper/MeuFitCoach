@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MeuFitCoach.Application.Services.PlanoDeTreino.Commands
 {
-    internal interface GerarPlanoDeTreinoCommand
+    public interface GerarPlanoDeTreinoCommand
     {
     }
 }

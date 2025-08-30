@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace MeuFitCoach.Application.Mappers
 {
-    internal class UsuarioMappers
+    public  class UsuarioMappers
     {
+
+        public UsuarioMappers() { }
+        
+
     }
 }

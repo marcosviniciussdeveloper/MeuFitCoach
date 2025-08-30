@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MeuFitCoach.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8824961d4e645ecefc61b2065dbf689d747faf45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6e9ce5bb45fe9ba616d0369f24ffa0f6c09b3c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("MeuFitCoach.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MeuFitCoach.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

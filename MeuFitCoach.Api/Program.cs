@@ -1,5 +1,13 @@
+using System.Reflection;
+using MeuFitCoach.Application.Interface.Infrastructure;
+using MeuFitCoach.Application.Interface.Persistence;
+using MeuFitCoach.Infrastructure.Configuration;
+using MeuFitCoach.Infrastructure.Integrations;
+using MeuFitCoach.Infrastructure.Integrations.Services;
 using Microsoft.EntityFrameworkCore;
+using MeuFitCoach.Application.Mappers;
 using Persistence;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,13 +25,22 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(connectionString));
 
 
+builder.Services.Configure<TwilioSettings>
+(builder.Configuration.GetSection("Twilio"));
+
+
+//Injeção de Dependências
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<IWhatsAppService , WhatsappService>();
+
+
 var app = builder.Build();
 
 
 
 
 //Injeção de Dependências
-
+//builder.Services.AddScoped<WhatsAppService , WhatsAppService>();
 
 
 

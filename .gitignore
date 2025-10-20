@@ -1,0 +1,17 @@
+# Build do .NET
+bin/
+obj/
+
+**/bin/
+**/appsettings*.json
+
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Logs e caches
+*.db
+*.cache
+*.log
